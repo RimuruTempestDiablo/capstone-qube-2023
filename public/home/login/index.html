@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Login | QuBe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welcome to QuBe</h1>
+                <p>Please login to use the platform</p>
+            </div>
+            <form class="login-form" action="/public/home/login/" method="POST">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label for="email">Enter Email</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="form-item">
+                        <label for="password">Enter Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rememberMeCheckbox">
+                            <label for="rememberMeCheckbox" id="checkbox">Remember Me</label>
+                        </div>
+                    </div>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="login-right">
+            <img src="../QuBe-Logo.png">
+        </div>
+    </div>
+</body>
+</html>
